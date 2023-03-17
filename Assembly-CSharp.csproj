@@ -137,7 +137,6 @@
      <Compile Include="Assets\Web3Unity\Scripts\Prefabs\Minter\Model\CreateMintModel.cs" />
      <Compile Include="Assets\Web3Unity\Scripts\Prefabs\WebGL\WebGLSignOut.cs" />
      <Compile Include="Assets\codigos\tempoPulo.cs" />
-     <Compile Include="Assets\Chris 1\cris.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
      <Compile Include="Assets\Dogs\anm_dog.cs" />
      <Compile Include="Assets\Web3Unity\Scripts\Prefabs\ERC20\ERC20TotalSupplyExample.cs" />
