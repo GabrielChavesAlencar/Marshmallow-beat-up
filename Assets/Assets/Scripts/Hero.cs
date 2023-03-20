@@ -111,6 +111,7 @@ public class Hero : Actor
     public Animator anim_boneco;
     public GameObject coruja;
     public GameObject ape;
+    
     public GameObject bonequinho;
     public Sprite [] icones;
     public Image icone;
@@ -127,18 +128,24 @@ public class Hero : Actor
             gameManager = GameObject.Find("MyGameManager").GetComponent<GameManager>();
             //icone  =
             icone.sprite = icones[MainMenu.num_perso];
-            if(MainMenu.num_perso>3){
-                baseAnim = anim2;
-                espada =espada2;
-                coruja.SetActive(true);
+            if(MainMenu.num_perso<5){
+
+               // baseAnim = anim2;
+               // espada =espada2;
+             //   coruja.SetActive(true);
                 ape.SetActive(false);
-                sprite_arma = sprite_arma2;
+                bonequinho.SetActive(true);
+                sprite_arma = sprite_arma3;
+                baseAnim = anim_boneco;
+                espada =espada3;
+              //  sprite_arma = sprite_arma2;
             }
             else{
+                MainMenu.num_perso = 3;
 //                coruja.SetActive(false);
-                bonequinho.SetActive(true);
-                baseAnim = anim_boneco;
-               //  ape.SetActive(true);
+                bonequinho.SetActive(false);
+               
+                 ape.SetActive(true);
             }
             
             
@@ -152,8 +159,7 @@ public class Hero : Actor
                 sprite_arma.sprite = espada_sprite;
             }
         }
-        sprite_arma = sprite_arma3;
-        espada =espada3;
+        
         
     }
     public void ativar_espada () {

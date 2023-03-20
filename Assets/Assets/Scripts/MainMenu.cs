@@ -27,18 +27,18 @@ public class MainMenu : MonoBehaviour {
 	void Start() 
     {
       DateTime utcTime = DateTime.UtcNow;
-      print(utcTime.Day);
+//      print(utcTime.Day);
 
 
     //eventos com datas
       if(utcTime.Year>=2023&&utcTime.Month>=3&&utcTime.Day>=2){
-         print("ativar");
+      //   print("ativar");
       }
       if(utcTime.Year>=2023&&utcTime.Month>=3&&utcTime.Day>=23){
-         print("ativar");
+        // print("ativar");
       }
       if(utcTime.Year>=2023&&utcTime.Month>=4&&utcTime.Day>=13){
-         print("ativar");
+         //print("ativar");
       }
 
 

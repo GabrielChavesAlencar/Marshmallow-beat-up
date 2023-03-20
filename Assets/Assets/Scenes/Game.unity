@@ -3210,13 +3210,14 @@ GameObject:
   - component: {fileID: 643674987}
   - component: {fileID: 643674986}
   - component: {fileID: 643674985}
+  - component: {fileID: 643674994}
   m_Layer: 9
   m_Name: car (1)
   m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &643674985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3488,6 +3489,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &643674994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643674984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5b6ff505e548f44856766bbf1b7175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &656463601 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224000013429164912, guid: 7775996b03bc94ab08f6c501ba8484b5, type: 3}
@@ -3798,13 +3811,14 @@ GameObject:
   - component: {fileID: 786386620}
   - component: {fileID: 786386619}
   - component: {fileID: 786386618}
+  - component: {fileID: 786386627}
   m_Layer: 9
   m_Name: car (2)
   m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &786386618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4076,6 +4090,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &786386627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786386617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5b6ff505e548f44856766bbf1b7175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &805696586
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,7 +5551,7 @@ MonoBehaviour:
   menu_gameOver: {fileID: 610339465}
   efeito_escuro: {fileID: 1736870511}
   pont: {fileID: 1199490586}
-  player: {fileID: 2751795066099168249, guid: 695746c78ad28dc4685469cd107e1f26, type: 3}
+  player: {fileID: 2751795066099168249, guid: a2b5624d91b6667428b5328bf6bdb61a, type: 3}
   level_text: {fileID: 1650612461}
 --- !u!114 &1199490585
 MonoBehaviour:
@@ -8808,6 +8834,23 @@ Transform:
   m_Father: {fileID: 1968837958}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1918250906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 741115519689650687, guid: 7797873937448d041898489132791a94, type: 3}
+  m_PrefabInstance: {fileID: 7305013264969702862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1918250916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918250906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5b6ff505e548f44856766bbf1b7175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1968837956
 GameObject:
   m_ObjectHideFlags: 0
@@ -9521,6 +9564,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1968837957}
+    - target: {fileID: 2751795066099168240, guid: 695746c78ad28dc4685469cd107e1f26, type: 3}
+      propertyPath: icones.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 65c123ee4a3ee104c9caf5d7be16b8c5, type: 3}
     - target: {fileID: 2751795066099168240, guid: 695746c78ad28dc4685469cd107e1f26, type: 3}
       propertyPath: imagens_armas.Array.data[0]
       value: 
@@ -10396,6 +10443,10 @@ PrefabInstance:
     - target: {fileID: 741115519689650687, guid: 7797873937448d041898489132791a94, type: 3}
       propertyPath: m_Name
       value: car
+      objectReference: {fileID: 0}
+    - target: {fileID: 741115519689650687, guid: 7797873937448d041898489132791a94, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7797873937448d041898489132791a94, type: 3}

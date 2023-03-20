@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SHOP : MonoBehaviour
 {
     public GameObject [] textos;
+    public Text money_text;
     // Start is called before the first frame update
     void Start()
     {

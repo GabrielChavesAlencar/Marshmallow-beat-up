@@ -165,6 +165,7 @@
      <Compile Include="Assets\Web3Unity\Scripts\Prefabs\Wallet\Web3WalletTransfer20Example.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
      <Compile Include="Assets\Web3Unity\Scripts\Prefabs\WebGL\WebGLTransfer20.cs" />
+     <Compile Include="Assets\codigos\carro.cs" />
      <Compile Include="Assets\Web3Unity\Scripts\Prefabs\Minter\Model\GetRootNft.cs" />
      <Compile Include="Assets\Web3Unity\Scripts\Prefabs\Wallet\Web3WalletTransfer1155Example.cs" />
      <Compile Include="Assets\codigos\NFT codigo\ipfs\NFTStorageClient.cs" />
