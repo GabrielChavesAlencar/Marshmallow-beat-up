@@ -150,6 +150,8 @@ public class Hero : Actor
             
             
             base.Start();
+            maxLife = currentLife+(30*bancodedados.carregarint("level_life"));
+            currentLife = maxLife;
             lifeBar = GameObject.FindGameObjectWithTag("HeroLifeBar").GetComponent<LifeBar>();
             lifeBar.SetProgress(currentLife / maxLife);
             if(espada_ativada){
@@ -158,6 +160,10 @@ public class Hero : Actor
                 espada.SetActive(true);
                 sprite_arma.sprite = espada_sprite;
             }
+           //normalAttack.attackDamage =normalAttack.attackDamage+(10*bancodedados.carregarint("level_atack"));
+           // normalAttack2.attackDamage =normalAttack2.attackDamage+(10*bancodedados.carregarint("level_atack"));
+           // normalAttack3.attackDamage =normalAttack3.attackDamage+(10*bancodedados.carregarint("level_atack"));
+           // print(normalAttack.attackDamage);
         }
         
         

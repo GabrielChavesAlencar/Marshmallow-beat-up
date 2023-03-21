@@ -15,7 +15,7 @@ public class powerUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        heroi = GameObject.Find(jogo.nome_jogador).GetComponent<Hero>();
         if(bancodedados.carregarint("PowerUp")==1&&tempo<=0){
             tempo = 99;
             heroi.walkSpeed = 5;
@@ -30,6 +30,7 @@ public class powerUp : MonoBehaviour
             heroi.walkSpeed = 2;
             heroi.runSpeed = 5;
         }
+        ataque_atualizado();
 
     }
 
@@ -67,11 +68,16 @@ public class powerUp : MonoBehaviour
         
     }
     public void powerup1 () {
-        heroi.normalAttack.attackDamage = 20;
-        heroi.normalAttack2.attackDamage = 20;
-        heroi.normalAttack3.attackDamage = 40;
+        heroi.normalAttack.attackDamage = 20+(10*bancodedados.carregarint("level_atack"));
+        heroi.normalAttack2.attackDamage = 20+(10*bancodedados.carregarint("level_atack"));
+        heroi.normalAttack3.attackDamage = 40+(10*bancodedados.carregarint("level_atack"));
         heroi.walkSpeed = 5;
         heroi.runSpeed = 10;
+    }
+    public void ataque_atualizado () {
+        heroi.normalAttack.attackDamage = 10+(10*bancodedados.carregarint("level_atack"));
+        heroi.normalAttack2.attackDamage = 10+(10*bancodedados.carregarint("level_atack"));
+        heroi.normalAttack3.attackDamage = 20+(10*bancodedados.carregarint("level_atack"));
     }
     public void powerup2 () {
         moreMoney = true;
