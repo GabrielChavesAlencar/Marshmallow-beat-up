@@ -121,7 +121,7 @@ MonoBehaviour:
   body: {fileID: 1400065394699655341}
   shadowSprite: {fileID: 1251710741702224493}
   baseSprite: {fileID: 5008304519761408768}
-  speed: 3
+  speed: 5
   isGrounded: 0
   isAlive: 1
   maxLife: 60
@@ -193,7 +193,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1416595306285374933}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.7
+  m_Radius: 0.8
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 0
@@ -202,7 +202,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2.6
+  m_Height: 2.3
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 0
@@ -237,12 +237,13 @@ MonoBehaviour:
   laser: {fileID: 9170927937674550014}
   dog: {fileID: 1416595306285374933}
   n_laser: 0
-  attackReachMin: 1
-  attackReachMax: 2
+  attackReachMin: 0.5
+  attackReachMax: 1
   personalSpace: 0.75
   anim: {fileID: 5008304518458266383}
   detector: {fileID: 1311795416622419039}
   currentAction: 0
+  boss: 0
 --- !u!82 &1335923155006256383
 AudioSource:
   m_ObjectHideFlags: 0
@@ -352,9 +353,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standingColliderCenter: {x: 0, y: 1.2, z: 0}
-  standingColliderSize: {x: 1, y: 2.4, z: 0.6}
+  standingColliderSize: {x: 0.5, y: 2.4, z: 0.6}
   downColliderCenter: {x: -0.6, y: 0.5, z: 0}
-  downColliderSize: {x: 2.4, y: 1, z: 0.6}
+  downColliderSize: {x: 1, y: 1, z: 0.6}
 --- !u!114 &3729407213209705613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,15 +875,19 @@ MonoBehaviour:
   bracos:
   - {fileID: 21300000, guid: df67684ce6bb6064c924f9ae5df54306, type: 3}
   - {fileID: 21300000, guid: 58de3ad7128189740b8f56e1f1fc321b, type: 3}
+  - {fileID: 21300000, guid: 13c3961ecc3befe41bf76f617e1dfbf6, type: 3}
   pernas:
   - {fileID: 21300000, guid: 33878c9aadf788f478e57005d4db5fdc, type: 3}
   - {fileID: 21300000, guid: f5f4f76001d34f3419467eb190765858, type: 3}
+  - {fileID: 21300000, guid: d4072db2ccec286488cfed6f230c68d3, type: 3}
   torax:
   - {fileID: 21300000, guid: 050038b9af9fee649bce91b4b7fa550c, type: 3}
   - {fileID: 21300000, guid: 0040661d133797e4c9096b6143372112, type: 3}
+  - {fileID: 21300000, guid: 8305af80c703786448a61b79e7a19325, type: 3}
   cabeca:
   - {fileID: 21300000, guid: 611b9ca933aa03e48aa5d88e5ab0bc97, type: 3}
   - {fileID: 21300000, guid: fa04a0a24334a9a40b5e186b68792c9b, type: 3}
+  - {fileID: 0}
   braco_esquerdo: {fileID: 5008304519013315813}
   braco_direito: {fileID: 5008304518303738500}
   perna_esquerda: {fileID: 5008304519822163926}

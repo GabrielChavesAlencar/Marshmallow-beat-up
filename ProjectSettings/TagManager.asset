@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - WorldCanvas
+  - HeroLifeBar
+  - Hero
+  - EnemyLifeBar
+  - Dog
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 2793121859
+    locked: 0
+  - name: 2
+    uniqueID: 2928350263
+    locked: 0
+  - name: 3
+    uniqueID: 2355630497
+    locked: 0
+  - name: 4
+    uniqueID: 2894197793
+    locked: 0
+  - name: 5
+    uniqueID: 123812889
+    locked: 0
+  - name: 6
+    uniqueID: 3009522925
+    locked: 0
+  - name: 7
+    uniqueID: 2299739043
+    locked: 0
+  - name: 8
+    uniqueID: 496360665
+    locked: 0
+  - name: 9
+    uniqueID: 3414985981
+    locked: 0
+  - name: 10
+    uniqueID: 1026523025
+    locked: 0
+  - name: 11
+    uniqueID: 155574795
+    locked: 0
+  - name: 12
+    uniqueID: 1141069911
+    locked: 0
+  - name: 13
+    uniqueID: 3887504297
+    locked: 0
+  - name: 14
+    uniqueID: 190002571
+    locked: 0
+  - name: 15
+    uniqueID: 2727881191
+    locked: 0
+  - name: 16
+    uniqueID: 1413897889
+    locked: 0
+  - name: 17
+    uniqueID: 2313345023
+    locked: 0
+  - name: 18
+    uniqueID: 2410143737
+    locked: 0
+  - name: 19
+    uniqueID: 1546810111
+    locked: 0
+  - name: 20
+    uniqueID: 3286483191
+    locked: 0

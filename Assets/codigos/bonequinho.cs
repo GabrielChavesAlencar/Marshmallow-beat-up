@@ -22,7 +22,9 @@ public class bonequinho : MonoBehaviour
     public int indice;
     public bool inimigo;
     public Robot r;
+    public Boss b;
     public Hero h;
+    public bool boss;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +34,21 @@ public class bonequinho : MonoBehaviour
             h.icone.sprite = cabeca[indice];
         }
         else{
-            indice = Random.Range(0,2);
-            r.actorThumbnail =cabeca[indice];
+            indice = Random.Range(0,3);       
+            
+            if(boss){
+                indice=2;
+                b.actorThumbnail =torax[indice];
+            }
+            else{
+                if(indice==2){
+                    r.actorThumbnail =torax[indice];
+                }
+                else{
+                    r.actorThumbnail =cabeca[indice];
+                }
+            }
+            
 
         }
         

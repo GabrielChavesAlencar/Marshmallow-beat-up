@@ -53447,7 +53447,7 @@ GameObject:
   - component: {fileID: 1371585565920505994}
   - component: {fileID: 2824737177468589697}
   m_Layer: 9
-  m_Name: car (1)
+  m_Name: planta
   m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66583,7 +66583,7 @@ GameObject:
   - component: {fileID: 2340575646244945757}
   - component: {fileID: 39245607705845917}
   m_Layer: 9
-  m_Name: car (2)
+  m_Name: planta
   m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91284,7 +91284,7 @@ GameObject:
   - component: {fileID: 70534316613646184}
   - component: {fileID: 180497483334378214}
   m_Layer: 9
-  m_Name: car
+  m_Name: planta
   m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

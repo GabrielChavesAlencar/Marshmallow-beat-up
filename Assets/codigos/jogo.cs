@@ -63,12 +63,14 @@ public class jogo : MonoBehaviour
        salvar_score();
        dificuldade= 0;
        Score=0;
+       
     }
     public void menu () {
         SceneManager.LoadScene("MainMenu");
         salvar_score();
         dificuldade= 0;
         Score=0;
+        GameManager.CurrentLevel = 0;
     }
     public void salvar_score(){
         int melhor = bancodedados.carregarint("melhor_score");

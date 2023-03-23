@@ -87,13 +87,13 @@ public class EnemyAI : MonoBehaviour {
         if(heroObj!=null){
         enemy.MoveToOffset(heroObj.transform.position, directionVector);
         }
-        decisionDuration = Random.Range(0.2f, 0.4f);
+        decisionDuration = Random.Range(0.1f, 0.2f);
     }
 
     private void Wait()
     {
         decisionDuration = Random.Range(0.05f, 0.08f);
-        atirar();
+        //atirar();
         enemy.Wait();
     }
  
@@ -103,7 +103,7 @@ public class EnemyAI : MonoBehaviour {
         enemy.FaceTarget(heroObj.transform.position);
         enemy.Attack();
         anim.SetInteger("move",Random.Range(0,4));
-        decisionDuration = Random.Range(1.0f, 1.5f);
+        decisionDuration = Random.Range(0.3f, 0.4f);
     }
 
     private void Roam()
@@ -116,7 +116,7 @@ public class EnemyAI : MonoBehaviour {
         Vector3 directionVector = new Vector3(offset.x, 0, offset.y);
         enemy.MoveTo(enemy.transform.position + directionVector);
 
-        decisionDuration = Random.Range(0.3f, 0.6f);
+        decisionDuration = Random.Range(0.1f, 0.2f);
     }
 
     private void DecideWithWeights(int attack, int wait, int chase, int move)
@@ -156,7 +156,7 @@ public class EnemyAI : MonoBehaviour {
             Chase();
         else if (action == EnemyAction.Roam)
            // Roam();
-            Chase();
+            Roam();
         else if (action == EnemyAction.Wait)
             Wait();
     }
