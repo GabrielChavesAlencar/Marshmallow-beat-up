@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 507255a8744cf43bfb51f0b5d82fb09a, type: 3}
-  m_Name: Level5Data
+  m_Name: Level6
   m_EditorClassIdentifier: 
   battleData:
   - column: 20
@@ -113,5 +113,5 @@ MonoBehaviour:
       color: 0
       row: 3
       offset: 0.7
-  levelPrefab: {fileID: 1907254984311954, guid: bed2ff45821637740a1566982f6280b5, type: 3}
-  levelName: Level 5
+  levelPrefab: {fileID: 1907254984311954, guid: f57b33ae8a87ed843a2f495d5a4e299b, type: 3}
+  levelName: Level 6
