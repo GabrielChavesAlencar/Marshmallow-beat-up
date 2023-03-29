@@ -141,7 +141,7 @@ public class Hero : Actor
               //  sprite_arma = sprite_arma2;
             }
             else{
-                MainMenu.num_perso = 3;
+                //MainMenu.num_perso = 3;
 //                coruja.SetActive(false);
                 bonequinho.SetActive(false);
                

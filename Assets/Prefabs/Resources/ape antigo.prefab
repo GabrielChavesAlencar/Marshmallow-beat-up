@@ -957,14 +957,14 @@ MonoBehaviour:
   arremecar_obj: {fileID: 4231960662547583366, guid: 67acfb8ffe988ec48b4c8158b6c84432, type: 3}
   jumpCollider: {fileID: 4399856354124985749}
   imagens_armas:
-  - {fileID: 21300000, guid: 50ada21a7e62c644a93ef459e7a3a933, type: 3}
-  - {fileID: 21300000, guid: bee771a7bf9e68f4e861c07be1ca0d86, type: 3}
-  - {fileID: 21300000, guid: e0696ae411debbb44bde4824c58153f1, type: 3}
-  - {fileID: 21300000, guid: f74bbe00a2a60564694f93427822f1c4, type: 3}
-  - {fileID: 21300000, guid: b43f7887a0f1bf44abe3f4588e3088a2, type: 3}
-  - {fileID: 21300000, guid: 0fa9e9eddc665434bb15e88b1a262b9f, type: 3}
-  - {fileID: 21300000, guid: 921b6f2bd0aa10e42aaefe434a149423, type: 3}
-  - {fileID: 21300000, guid: c7ccd4498a87f014b8d933dc97ac87c0, type: 3}
+  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: 54ffa74f3d163144d86caf88aa831f94, type: 3}
+  - {fileID: 21300000, guid: 64ef45625f75daa4d8832ae2a8f6f256, type: 3}
+  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: 54ffa74f3d163144d86caf88aa831f94, type: 3}
+  - {fileID: 21300000, guid: 64ef45625f75daa4d8832ae2a8f6f256, type: 3}
+  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: f15617515c1227940b1732193fc6b296, type: 3}
   sprite_arma: {fileID: 2751795066289931167}
   sprite_arma2: {fileID: 2751795065276438868}
   sprite_arma3: {fileID: 3654081170926254416}
@@ -4013,7 +4013,9 @@ MonoBehaviour:
   indice: 0
   inimigo: 0
   r: {fileID: 0}
+  b: {fileID: 0}
   h: {fileID: 2751795066099168240}
+  boss: 0
 --- !u!114 &9025929239942867121
 MonoBehaviour:
   m_ObjectHideFlags: 0

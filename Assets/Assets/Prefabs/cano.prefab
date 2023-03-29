@@ -169,7 +169,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eebf9f6c4d367d040a41d6be3415e94c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -346,14 +346,14 @@ MonoBehaviour:
   temp: {fileID: 0}
   render: {fileID: 212000012884182810}
   imagens:
-  - {fileID: 21300000, guid: eebf9f6c4d367d040a41d6be3415e94c, type: 3}
-  - {fileID: 21300000, guid: ed49da4effcd9d04f95a9728a71d1a93, type: 3}
-  - {fileID: 21300000, guid: 1486c04e822aaf841b55474efa353551, type: 3}
-  - {fileID: 21300000, guid: 3ba73694a9d29954fa91dd225ca01ed1, type: 3}
-  - {fileID: 21300000, guid: 6b0568773c42c8b43a745f2963f2b67b, type: 3}
-  - {fileID: 21300000, guid: 81577dbd475344e45824b70d722bcb2b, type: 3}
-  - {fileID: 21300000, guid: 229466a1118909646ad2b198084c9034, type: 3}
-  - {fileID: 21300000, guid: c7ccd4498a87f014b8d933dc97ac87c0, type: 3}
+  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: 54ffa74f3d163144d86caf88aa831f94, type: 3}
+  - {fileID: 21300000, guid: 64ef45625f75daa4d8832ae2a8f6f256, type: 3}
+  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: 54ffa74f3d163144d86caf88aa831f94, type: 3}
+  - {fileID: 21300000, guid: 64ef45625f75daa4d8832ae2a8f6f256, type: 3}
+  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: f15617515c1227940b1732193fc6b296, type: 3}
   armas: 1
   num_arma: 0
   cano: 1

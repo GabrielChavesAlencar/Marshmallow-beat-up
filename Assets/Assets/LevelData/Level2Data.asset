@@ -16,19 +16,19 @@ MonoBehaviour:
   - column: 57
     enemies:
     - type: 0
-      color: 1
+      color: 0
       row: 0
       offset: -0.6
     - type: 0
-      color: 1
+      color: 0
       row: 1
       offset: 0.6
     - type: 0
-      color: 1
+      color: 0
       row: 2
       offset: -0.6
     - type: 0
-      color: 4
+      color: 0
       row: 3
       offset: 0.6
   - column: 80
@@ -38,24 +38,30 @@ MonoBehaviour:
       row: 0
       offset: -0.6
     - type: 0
-      color: 3
+      color: 0
       row: 1
       offset: 0.6
     - type: 0
-      color: 3
+      color: 0
       row: 2
       offset: -0.6
     - type: 0
-      color: 3
+      color: 0
       row: 3
       offset: 0.6
     - type: 0
-      color: 4
+      color: 0
       row: 3
       offset: 0.6
     - type: 0
-      color: 3
+      color: 0
       row: 3
+      offset: -0.6
+  - column: 90
+    enemies:
+    - type: 2
+      color: 0
+      row: 0
       offset: -0.6
   levelPrefab: {fileID: 1907254984311954, guid: c76209c61361b754aa8649c0de515df7, type: 3}
   levelName: Level 2

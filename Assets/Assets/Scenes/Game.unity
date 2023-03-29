@@ -5990,7 +5990,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199490579}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 562448a7d9d3e04419035d803e4363c3, type: 3}
   m_Name: 
@@ -9404,8 +9404,8 @@ MonoBehaviour:
   currentLevelBackground: {fileID: 0}
   robotPrefab: {fileID: 1416595306285374933, guid: e1478985e97f3d746a118d7da0c9009f, type: 3}
   bossPrefab: {fileID: 9006139835278431126, guid: c7dbf4b685f0fc84bb984d39cc01a3c3, type: 3}
-  PlantPrefab: {fileID: 7453465254075163071, guid: f71671ea814df1e46a2334637f0a3a88, type: 3}
-  Plant2Prefab: {fileID: 2493860385293553916, guid: abaa6e217a4620444a916162e4cbe0a2, type: 3}
+  PlantPrefab: {fileID: 9006139835278431126, guid: f875bddc3fa6bcb4393f056518b199e0, type: 3}
+  Plant2Prefab: {fileID: 9006139835278431126, guid: 369dc3e94777d6747b8bb002df768a5d, type: 3}
   levelNamePrefab: {fileID: 135398, guid: 523e52b57d302d7498fc0653a3f58295, type: 3}
   gameOverPrefab: {fileID: 135026, guid: b0e50aa712d25d84082056d71ff6aba9, type: 3}
   uiTransform: {fileID: 1199490583}

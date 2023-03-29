@@ -26,8 +26,8 @@ public class jogo : MonoBehaviour
     
     // Start is called before the first frame update
     private void Awake() {
-       GameManager.CurrentLevel = 6;
-       MainMenu.num_perso = 5;
+       GameManager.CurrentLevel = 2;
+      // MainMenu.num_perso = 5;
        if(!NetworkControler.online){
             GameObject temp = Instantiate(player);
             nome_jogador =  temp.name;
