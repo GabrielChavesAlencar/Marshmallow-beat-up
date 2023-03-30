@@ -17,8 +17,29 @@ public class artefato : MonoBehaviour
         render = GetComponent<SpriteRenderer>();
         som_cena= GameObject.Find("life_sound");
         som = som_cena.GetComponent<AudioSource>();
-
-        int num_arma = Random.Range(0,imagens.Length);
+         int num_arma = 0;
+        //int num_arma = Random.Range(0,imagens.Length);
+        if(GameManager.CurrentLevel == 0){
+            num_arma = Random.Range(0,3);
+        }
+        else if(GameManager.CurrentLevel == 1){
+            num_arma = Random.Range(3,6);
+        }
+        else if(GameManager.CurrentLevel == 2){
+            num_arma = Random.Range(6,9);
+        }
+        else if(GameManager.CurrentLevel == 3){
+            num_arma = Random.Range(9,12);
+        }
+        else if(GameManager.CurrentLevel == 4){
+            num_arma = Random.Range(12,15);
+        }
+        else if(GameManager.CurrentLevel == 5){
+            num_arma = Random.Range(15,18);
+        }
+        else if(GameManager.CurrentLevel == 6){
+            num_arma = Random.Range(18,21);
+        }
         render.sprite = imagens[num_arma];
 
     }

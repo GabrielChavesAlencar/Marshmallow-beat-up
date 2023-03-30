@@ -232,19 +232,19 @@ MonoBehaviour:
   bracos:
   - {fileID: 21300000, guid: 9d70ac16bc25a594a8d164b781587716, type: 3}
   - {fileID: 21300000, guid: 58de3ad7128189740b8f56e1f1fc321b, type: 3}
-  - {fileID: 21300000, guid: 1273775c7d30b5840b5a2b1656d83a26, type: 3}
+  - {fileID: 21300000, guid: 66e6671c100133240afd1dd4da313eac, type: 3}
   pernas:
   - {fileID: 21300000, guid: 055070018db691b4191baac7cfa5988d, type: 3}
   - {fileID: 21300000, guid: f5f4f76001d34f3419467eb190765858, type: 3}
-  - {fileID: 21300000, guid: d34823f626d91f6479d073532b5da99e, type: 3}
+  - {fileID: 21300000, guid: 60d591b755172c240add8d77d2855bfd, type: 3}
   torax:
   - {fileID: 21300000, guid: d52f911faf8cddc4ebab9f9b77901e3e, type: 3}
   - {fileID: 21300000, guid: 0040661d133797e4c9096b6143372112, type: 3}
-  - {fileID: 21300000, guid: 30cdbc016039e8d45ba9f518827beb03, type: 3}
+  - {fileID: 21300000, guid: df83ea5a57fdf7544a2ae19520d7160b, type: 3}
   cabeca:
   - {fileID: 21300000, guid: 3fbe5632472c35945ae0a37531b1fceb, type: 3}
   - {fileID: 21300000, guid: fa04a0a24334a9a40b5e186b68792c9b, type: 3}
-  - {fileID: 21300000, guid: 17b1fdbd12bb811429fdaa8308669a91, type: 3}
+  - {fileID: 21300000, guid: d831fdc7cc2243448babc99f8ad2b67c, type: 3}
   braco_esquerdo: {fileID: 3992318736368121965}
   braco_direito: {fileID: 3992318736368121964}
   perna_esquerda: {fileID: 3992318736368121960}
