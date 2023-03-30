@@ -347,13 +347,19 @@ MonoBehaviour:
   render: {fileID: 212000012884182810}
   imagens:
   - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: 7a81c55eb0809904ab9d5063e3c69ba5, type: 3}
+  - {fileID: 21300000, guid: ec7fc1c851d385b46a63080a4cdc1ab4, type: 3}
+  - {fileID: 21300000, guid: a63363f6b3e34a4429bd4e24d1bbe286, type: 3}
   - {fileID: 21300000, guid: 54ffa74f3d163144d86caf88aa831f94, type: 3}
-  - {fileID: 21300000, guid: 64ef45625f75daa4d8832ae2a8f6f256, type: 3}
-  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
-  - {fileID: 21300000, guid: 54ffa74f3d163144d86caf88aa831f94, type: 3}
-  - {fileID: 21300000, guid: 64ef45625f75daa4d8832ae2a8f6f256, type: 3}
-  - {fileID: 21300000, guid: 8eb19e3382432424c8cc21278ea64126, type: 3}
+  - {fileID: 21300000, guid: 743e8f26cbb93f7408eb8fbb0d655a66, type: 3}
+  - {fileID: 21300000, guid: dbf93701b75b6e8458f3568fa62bc02d, type: 3}
+  - {fileID: 21300000, guid: 95edbb5c515f6c9419010a9657c61e3e, type: 3}
+  - {fileID: 21300000, guid: 91f3e5f9c56a0a241b987360041f7985, type: 3}
+  - {fileID: 21300000, guid: f0feabe7c9b6e6f4c97c4fbaeb9e9312, type: 3}
   - {fileID: 21300000, guid: f15617515c1227940b1732193fc6b296, type: 3}
+  - {fileID: 21300000, guid: 71368fcd4dfad9949a88060ab63b5f94, type: 3}
+  - {fileID: 21300000, guid: 8714d11a1e829ba409c6bf813d43b49a, type: 3}
+  - {fileID: 21300000, guid: 64ef45625f75daa4d8832ae2a8f6f256, type: 3}
   armas: 1
   num_arma: 0
   cano: 0

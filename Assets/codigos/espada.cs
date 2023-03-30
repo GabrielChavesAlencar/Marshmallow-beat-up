@@ -25,8 +25,30 @@ public class espada : MonoBehaviour
     private void OnEnable() {
         
         if(armas){
-            num_arma = Random.Range(0,imagens.Length);
-            if(cano){num_arma = 7;}
+
+            //num_arma = Random.Range(0,imagens.Length);
+           // if(cano){num_arma = 7;}
+            if(GameManager.CurrentLevel == 0){
+                num_arma = Random.Range(0,2);
+            }
+            else if(GameManager.CurrentLevel == 1){
+                num_arma = Random.Range(2,4);
+            }
+            else if(GameManager.CurrentLevel == 2){
+                num_arma = Random.Range(4,6);
+            }
+            else if(GameManager.CurrentLevel == 3){
+                num_arma = Random.Range(6,8);
+            }
+            else if(GameManager.CurrentLevel == 4){
+                num_arma = Random.Range(8,10);
+            }
+            else if(GameManager.CurrentLevel == 5){
+                num_arma = Random.Range(10,12);
+            }
+            else if(GameManager.CurrentLevel == 6){
+                num_arma = Random.Range(12,14);
+            }
             render.sprite = imagens[num_arma];
         }
     }

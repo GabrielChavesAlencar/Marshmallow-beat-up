@@ -74,7 +74,10 @@ public class Robot : Enemy {
                     }
                     int num_rand =0;
                     if(jogo.more_artefatis){num_rand = Random.Range(0,5);}
-                    else{num_rand = Random.Range(0,10);}
+                    else{
+                        //num_rand = Random.Range(2,2);
+                        num_rand = Random.Range(0,10);
+                    }
                     
                     if(num_rand==2){
                         pos_rand = new Vector3(Random.Range(-0.6f,0.6f),Random.Range(-0.6f,0.6f),0);

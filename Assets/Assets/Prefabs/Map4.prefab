@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4386443964385140}
   - component: {fileID: 212668569233240372}
+  - component: {fileID: 3043903993086257212}
   m_Layer: 11
   m_Name: LeftSprite
   m_TagString: Untagged
@@ -168,6 +169,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3043903993086257212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082240185205312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd7700fa0283764abdf65895e075685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  render: {fileID: 212668569233240372}
+  sortingOrder: 0
+  z: 0
+  nome_obj: 
+  objeto: {fileID: 1311370725895658}
+  inimigo: 0
 --- !u!1 &1148602049064628
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,6 +6439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 574778686235114479}
   - component: {fileID: 3603031795087022908}
+  - component: {fileID: 3800543563664555820}
   m_Layer: 11
   m_Name: LeftSprite
   m_TagString: Untagged
@@ -6494,6 +6514,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3800543563664555820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5201779871052226807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd7700fa0283764abdf65895e075685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  render: {fileID: 3603031795087022908}
+  sortingOrder: 0
+  z: 0
+  nome_obj: 
+  objeto: {fileID: 4045760805113695541}
+  inimigo: 0
 --- !u!1 &5232909448490648459
 GameObject:
   m_ObjectHideFlags: 0
