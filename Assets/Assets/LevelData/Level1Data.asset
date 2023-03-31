@@ -17,7 +17,11 @@ MonoBehaviour:
     enemies:
     - type: 0
       color: 0
-      row: 1
+      row: 0
+      offset: -0.3
+    - type: 0
+      color: 0
+      row: 2
       offset: -0.3
     - type: 0
       color: 0
@@ -25,11 +29,7 @@ MonoBehaviour:
       offset: -0.3
     - type: 0
       color: 0
-      row: 1
-      offset: -0.3
-    - type: 0
-      color: 0
-      row: 1
+      row: 0
       offset: -0.3
   - column: 45
     enemies:
@@ -39,7 +39,7 @@ MonoBehaviour:
       offset: 0.2
     - type: 0
       color: 0
-      row: 1
+      row: 0
       offset: 0.2
     - type: 0
       color: 0
@@ -47,23 +47,15 @@ MonoBehaviour:
       offset: 0.2
     - type: 0
       color: 0
-      row: 1
+      row: 2
+      offset: 0.2
+    - type: 0
+      color: 0
+      row: 0
       offset: 0.2
     - type: 0
       color: 0
       row: 1
-      offset: 0.2
-    - type: 0
-      color: 0
-      row: 1
-      offset: 0.2
-    - type: 0
-      color: 0
-      row: 4
-      offset: 0.2
-    - type: 0
-      color: 0
-      row: 4
       offset: 0.2
   - column: 60
     enemies:
@@ -73,7 +65,7 @@ MonoBehaviour:
       offset: 0.6
     - type: 0
       color: 0
-      row: 1
+      row: 2
       offset: -0.7
     - type: 0
       color: 0
@@ -81,27 +73,19 @@ MonoBehaviour:
       offset: 0.6
     - type: 0
       color: 0
-      row: 1
+      row: 0
       offset: -0.7
-    - type: 0
-      color: 0
-      row: 4
-      offset: 0.6
-    - type: 0
-      color: 0
-      row: 4
-      offset: -0.7
-    - type: 0
-      color: 0
-      row: 4
-      offset: 0.6
     - type: 0
       color: 0
       row: 1
+      offset: 0.6
+    - type: 0
+      color: 0
+      row: 2
       offset: -0.7
     - type: 0
       color: 0
-      row: 4
+      row: 0
       offset: 0.6
     - type: 0
       color: 0
@@ -115,7 +99,7 @@ MonoBehaviour:
       offset: 0.6
     - type: 0
       color: 0
-      row: 1
+      row: 0
       offset: -0.7
     - type: 0
       color: 0
@@ -123,25 +107,53 @@ MonoBehaviour:
       offset: 0.6
     - type: 0
       color: 0
+      row: 2
+      offset: -0.7
+    - type: 0
+      color: 0
+      row: 0
+      offset: 0.6
+    - type: 0
+      color: 0
       row: 1
       offset: -0.7
     - type: 0
       color: 0
-      row: 4
+      row: 2
       offset: 0.6
     - type: 0
       color: 0
-      row: 4
-      offset: -0.7
+      row: 0
+      offset: 0.6
     - type: 0
       color: 0
-      row: 4
+      row: 1
+      offset: 0.6
+    - type: 0
+      color: 0
+      row: 2
       offset: 0.6
   - column: 125
     enemies:
     - type: 0
       color: 0
+      row: 0
+      offset: 0.6
+    - type: 0
+      color: 0
+      row: 2
+      offset: -0.7
+    - type: 0
+      color: 0
       row: 1
+      offset: 0.6
+    - type: 0
+      color: 0
+      row: 0
+      offset: -0.7
+    - type: 0
+      color: 0
+      row: 2
       offset: 0.6
     - type: 0
       color: 0
@@ -153,32 +165,24 @@ MonoBehaviour:
       offset: 0.6
     - type: 0
       color: 0
-      row: 1
-      offset: -0.7
-    - type: 0
-      color: 0
-      row: 4
+      row: 0
       offset: 0.6
     - type: 0
       color: 0
-      row: 4
-      offset: -0.7
+      row: 0
+      offset: -0.6
     - type: 0
       color: 0
-      row: 4
+      row: 2
+      offset: -0.6
+    - type: 0
+      color: 0
+      row: 2
       offset: 0.6
     - type: 0
       color: 0
-      row: 4
-      offset: 0.6
-    - type: 0
-      color: 0
-      row: 4
-      offset: 0.6
-    - type: 0
-      color: 0
-      row: 4
-      offset: 0.6
+      row: 0
+      offset: -0.6
   - column: 150
     enemies:
     - type: 1

@@ -137,7 +137,7 @@ public class GameManager : MonoBehaviour {
     private void Awake()
     {
         loadingScreen.SetActive(true);
-        invocados = new GameObject[12];
+        invocados = new GameObject[25];
        
     }
 
@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour {
     {
         if(hora_incacao){
             tempo+=Time.deltaTime;
-            if(tempo>2.7f){
+            if(tempo>(2.5f-(jogo.dificuldade/3.5f))){
                 tempo =0;
                  indice_invocados--;
                 invocados[indice_invocados].SetActive(true);

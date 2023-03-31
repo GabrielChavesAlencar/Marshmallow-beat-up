@@ -29,7 +29,7 @@ public class jogo : MonoBehaviour
     
     // Start is called before the first frame update
     private void Awake() {
-      // GameManager.CurrentLevel = 3;
+       //GameManager.CurrentLevel = 5;
       // MainMenu.num_perso = 5;
        if(!NetworkControler.online){
             GameObject temp = Instantiate(player);
@@ -54,6 +54,7 @@ public class jogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(jogo.dificuldade>7){jogo.dificuldade=7;}
         if(Input.GetKeyDown(KeyCode.Return)){
             
             pausa = !pausa;
