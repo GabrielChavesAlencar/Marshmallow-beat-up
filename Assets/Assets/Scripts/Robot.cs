@@ -26,10 +26,16 @@ public class Robot : Enemy {
         if(jogo.dificuldade>0){
             maxLife = maxLife+(jogo.dificuldade*15);
             currentLife = maxLife;
+            normalAttack.attackDamage =normalAttack.attackDamage+(jogo.dificuldade*5);
             lifeBar.SetProgress(currentLife);
         }
         if(planta){
+             maxLife = maxLife+(jogo.dificuldade*15);
+             normalAttack.attackDamage =normalAttack.attackDamage+(jogo.dificuldade*5);
+            currentLife = maxLife;
+            lifeBar.SetProgress(currentLife);
             actorThumbnail = smokeSprite.sprite;
+            obstaculo = true;
         }
     }
 

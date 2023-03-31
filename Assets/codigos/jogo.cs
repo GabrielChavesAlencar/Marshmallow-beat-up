@@ -23,6 +23,9 @@ public class jogo : MonoBehaviour
     public static string nome_jogador;
     public static int dificuldade;
     public Text level_text;
+    public bool pausa;
+    public GameObject pausa_obj;
+    public int score_temp;
     
     // Start is called before the first frame update
     private void Awake() {
@@ -38,17 +41,30 @@ public class jogo : MonoBehaviour
             print("versao online");
         }
         //Instantiate(player);
+        
     }
     void Start()
     {
         escuro = false;
         gameOver = false;
         coin_text.text = ""+bancodedados.carregarfloat("coins");
+        score_temp = Score;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Return)){
+            
+            pausa = !pausa;
+        }
+        pausa_obj.SetActive(pausa);
+        if(pausa&&!gameOver){
+            Time.timeScale = 0;
+        }
+        else{
+            Time.timeScale = 1;
+        }
         level_text.text="LEVEL "+dificuldade;
         Score_text.text=""+Score;
         efeito_escuro.SetActive(escuro);
@@ -61,7 +77,7 @@ public class jogo : MonoBehaviour
         SceneManager.LoadScene("Game");
         Hero.espada_ativada = false;
        salvar_score();
-       dificuldade= 0;
+     //  dificuldade= 0;
        Score=0;
        
     }
@@ -80,4 +96,13 @@ public class jogo : MonoBehaviour
        }
         //pont.salvar(bancodedados.carregarString("nome_player"),melhor);
     }
+    public void resume () {
+        pausa = !pausa;
+    }
+    public void reiniciar () {
+        SceneManager.LoadScene("Game");
+        Hero.espada_ativada = false;
+        Score=score_temp;
+    }
+  
 }

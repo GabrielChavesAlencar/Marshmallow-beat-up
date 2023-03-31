@@ -11,6 +11,7 @@ public class Enemy : Actor {
     
 
     public bool stopMovementWhenHit = true;
+    public bool obstaculo;
 
     protected override void Start()
     {
@@ -29,8 +30,9 @@ public class Enemy : Actor {
         base.Die();
         ai.enabled = false;
         walker.enabled = false;
-
-        TotalEnemies--;
+        if(!obstaculo){
+            TotalEnemies--;
+        }
         
     }
 

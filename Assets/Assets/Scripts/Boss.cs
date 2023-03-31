@@ -16,6 +16,7 @@ public class Boss : Enemy {
             maxLife = maxLife+(jogo.dificuldade*50);
             currentLife = maxLife;
             lifeBar.SetProgress(currentLife);
+             normalAttack.attackDamage =normalAttack.attackDamage+(jogo.dificuldade*5);
         }
 	}
 

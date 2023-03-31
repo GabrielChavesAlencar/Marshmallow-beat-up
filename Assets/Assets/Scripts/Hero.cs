@@ -155,14 +155,16 @@ public class Hero : Actor
             lifeBar = GameObject.FindGameObjectWithTag("HeroLifeBar").GetComponent<LifeBar>();
             lifeBar.SetProgress(currentLife / maxLife);
             if(espada_ativada){
-                
-                baseAnim.SetBool("espada",true);
-                espada.SetActive(true);
-                sprite_arma.sprite = espada_sprite;
+                espada_ativada = false;
+                //baseAnim.SetBool("espada",true);
+                //espada.SetActive(true);
+                //sprite_arma.sprite = espada_sprite;
             }
-           //normalAttack.attackDamage =normalAttack.attackDamage+(10*bancodedados.carregarint("level_atack"));
-           // normalAttack2.attackDamage =normalAttack2.attackDamage+(10*bancodedados.carregarint("level_atack"));
-           // normalAttack3.attackDamage =normalAttack3.attackDamage+(10*bancodedados.carregarint("level_atack"));
+           normalAttack.attackDamage =normalAttack.attackDamage+(10*bancodedados.carregarint("level_atack"));
+            normalAttack2.attackDamage =normalAttack2.attackDamage+(10*bancodedados.carregarint("level_atack"));
+            normalAttack3.attackDamage =normalAttack3.attackDamage+(10*bancodedados.carregarint("level_atack"));
+            jumpAttack.attackDamage = jumpAttack.attackDamage+(10*bancodedados.carregarint("level_atack"));
+            runAttack.attackDamage = runAttack.attackDamage+(10*bancodedados.carregarint("level_atack"));
            // print(normalAttack.attackDamage);
         }
         
